@@ -499,7 +499,7 @@ Community general chat rooms were implemented separately from 1:1 chats.
 **Refactoring:**  
 Added a reference in `communityModel`:
 
-```js
+
 genralChat: { type: Schema.Types.ObjectId, ref: 'chatModel' }
 
 ## 2. Design Patterns Used
@@ -559,3 +559,4 @@ Middleware functions serve as interchangeable **authorization strategies**:
 The routing layer stays identical, but the **authorization strategy** changes based on the endpoint.
 
 ---
+
