@@ -360,7 +360,7 @@ These routes handle all general user interactions, including authentication, cha
 | **POST** | `/leaveComm/:id` | `leaveComm` | Allows the user to leave a community by ID. | Private | JWT Auth |
 | **POST** | `/getGeneralChat/:id` | `getGeneralChat` | Retrieves the general chat for a given community. | Private | JWT Auth |
 
-## 6. 📈 Design Improvement and Refactoring
+## 6.  Design Improvement and Refactoring
 
 This section outlines the architectural improvements made to the EngiVerse backend, focusing on applying core software design principles to enhance maintainability, scalability, and clarity.
 
@@ -559,4 +559,5 @@ Middleware functions serve as interchangeable **authorization strategies**:
 The routing layer stays identical, but the **authorization strategy** changes based on the endpoint.
 
 ---
+
 
