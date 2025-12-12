@@ -1,4 +1,4 @@
-#  1. EngiVerse Platform Backend Documentation
+#  1. EngiVerse Design
 
 ## 1.1 Overview
 
@@ -559,5 +559,6 @@ Middleware functions serve as interchangeable **authorization strategies**:
 The routing layer stays identical, but the **authorization strategy** changes based on the endpoint.
 
 ---
+
 
 
